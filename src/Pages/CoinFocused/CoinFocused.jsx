@@ -14,7 +14,7 @@ import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 
 // @helpers
-import returnMonth from "../../Helpers/MonthSelector";
+// import returnMonth from "../../Helpers/MonthSelector";
 
 const useStyles = makeStyles({
   table: {

@@ -1,0 +1,13 @@
+.notificationBar{
+    font-size: 15px;
+    text-align: center;
+    background: #1e272e;
+    color: #fff;
+    padding: 5px 10px;
+    line-height: 1.5;
+
+    .MuiButton-root{
+        color: #fff;
+        padding: 0!important;
+    }
+}

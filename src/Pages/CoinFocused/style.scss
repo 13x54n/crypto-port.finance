@@ -1,0 +1,104 @@
+.coinFocused {
+  margin: 20px 5vw;
+
+  .topbar {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    .digitInfo {
+      .rank {
+        background: #000;
+        color: #fff;
+        max-width: 100px;
+        text-align: center;
+        padding: 4px;
+        border-radius: 3px;
+        font-size: 15px;
+      }
+
+      .coinInfo {
+        display: flex;
+        align-items: center;
+        margin: 10px 0 5px 0;
+        img {
+          width: 30px;
+          margin-right: 15px;
+        }
+      }
+
+      .currentInfo {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 5px;
+
+        h1 {
+          margin-right: 10px;
+        }
+      }
+
+      .marketInfo{
+          .marketInfoOne, .marketInfoTwo{
+              display: flex;
+              color: grey;
+              line-height: 1.5;
+
+              b{
+                  color: #000;
+              }
+          }
+      }
+    }
+
+    .additonalInfo{
+        width: 25vw;
+
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+
+        .extraInfo{
+            div{
+                line-height: 2;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+    }
+  }
+
+  .priceConverter{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #ecf0f1;
+      margin: 20px 0;
+      padding: 15px 0;
+      color: #000;
+
+      i{
+          margin: 0 20px;
+          font-size: 22px;
+      }
+
+      span {
+          margin-right: 10px;
+      }
+
+      input{
+          font-size: 16px;
+          padding: 3px 5px;
+      }
+  }
+
+  .tableData {
+      .title{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+      }
+  }
+}

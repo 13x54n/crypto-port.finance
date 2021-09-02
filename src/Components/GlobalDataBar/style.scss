@@ -1,0 +1,29 @@
+.globalData {
+  padding: 8px 5vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 13px;
+
+  div {
+    span {
+      color: #01bad5;
+    }
+
+    .index {
+      font-weight: bold;
+      margin-right: 5px;
+      color: #000;
+
+      i {
+        margin-right: 5px;
+        font-size: 15px;
+        font-weight: normal;
+      }
+
+      span {
+        color: #000;
+      }
+    }
+  }
+}

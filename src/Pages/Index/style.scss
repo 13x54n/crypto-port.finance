@@ -1,0 +1,51 @@
+.home{
+    margin: 20px 5vw;
+    
+    .title{
+        p{
+            color: grey;
+            line-height: 1.5;
+        }
+    }
+    
+    .events{
+        padding-bottom: 35px;
+        border-bottom: 0.3px solid rgb(199, 199, 199);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 25px 0 0 0;
+        font-size: 15px;
+    }
+    
+    .trendingCoins{
+        border-bottom: 0.3px solid rgb(199, 199, 199);
+        border-top: 0.3px solid rgb(199, 199, 199);
+        padding-bottom: 30px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        .MuiPaper-elevation1{
+            box-shadow: none;
+        }
+
+        h2{
+            margin-top: 20px;
+        }
+
+        .coinIntro {
+            display: flex;
+            align-items: center;
+      
+            a {
+              text-decoration: none;
+              color: #000;
+            }
+      
+            img {
+              width: 20px;
+              border-radius: 5px;
+              margin-right: 7px;
+            }
+          }
+    }
+}

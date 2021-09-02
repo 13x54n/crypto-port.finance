@@ -1,0 +1,57 @@
+.navbar {
+  border-bottom: 0.3px solid rgb(199, 199, 199);
+  padding: 12px 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  img {
+    width: 80px;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+
+  .searchBar {
+    display: flex;
+    align-items: center;
+    background: rgb(245, 245, 245);
+    padding: 10px 15px;
+    border-radius: 5px;
+    i {
+      margin-right: 10px;
+    }
+    input {
+      width: 30vw;
+      font-size: 15px;
+      background: none;
+      border: none;
+      outline: none;
+    }
+
+    input:focus {
+      border: none;
+      outline: none;
+    }
+  }
+
+  .extra {
+    button {
+      border: none;
+      background: none;
+      font-size: 16px;
+      padding: 5px 5px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      text-transform: uppercase;
+      font-size: 14px;
+
+      i {
+        margin-right: 5px;
+        font-size: 20px;
+      }
+    }
+  }
+}
